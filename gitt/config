@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "upstream"]
+	url = https://github.com/Kartikeya18153/Constellation-detection.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[branch "master"]
+	remote = origin
+	vscode-merge-base = origin/master
+	merge = refs/heads/master
+[remote "origin"]
+	url = https://github.com/rashprit/Constellation-detection.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
